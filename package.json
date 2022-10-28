@@ -1,23 +1,30 @@
 {
-    "name": "slider-project",
-    "private": true,
-    "version": "0.0.0",
-    "type": "commonjs",
+    "name": "vite-widget",
+    "private": false,
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "homepage": "https://sinyayadynya.github.io/vite-widget",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
         "preview": "vite preview"
     },
     "dependencies": {
-        "@vitejs/plugin-react": "^2.1.0",
         "focus-visible": "^5.2.0",
         "postcss-focus-visible": "^7.1.0",
         "prop-types": "^15.8.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
+        "react-intl": "^6.2.1",
+        "react-intl-translations-manager": "^5.0.3",
         "vite-plugin-env-compatible": "^1.1.1"
     },
     "devDependencies": {
+        "@types/react": "^18.0.24",
+        "@types/react-dom": "^18.0.8",
+        "@vitejs/plugin-react": "^2.2.0",
         "autoprefixer": "^10.4.12",
         "postcss": "^8.4.18",
         "prettier": "^2.7.1",
