@@ -2,7 +2,7 @@
 
 This example contains documentation and example code for creating widgets using React with Vite.
 
-[View the demo](https://sinyayadynya.github.io/vite-widget/build/index.html)
+[View the demo](https://sinyayadynya.github.io/vite-widget/index.html)
 
 ## Current Maintainer(s)
 
